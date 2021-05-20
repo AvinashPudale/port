@@ -24,7 +24,7 @@ layout: default
   <section class="section is-small">
     <div class="columns">
       <div class="column is-3">
-        <img src="https://hutscape.com/{{ project.name | downcase }}/images/prototype/front.jpg" alt="{{ project.name }} photo">
+        <img src="https://avinashpudale.github.io/port/{{ project.name | downcase }}/images/prototype/front.jpg" alt="{{ project.name }} photo">
       </div>
 
 
