@@ -13,7 +13,7 @@
 
 - name: Pine
   sequence: 3
-  url: /pine
+  url: pinee
   description: 🌲 Control aircon by monitoring temperature in other parts of the room 🎐
   version: "1.0"
 
