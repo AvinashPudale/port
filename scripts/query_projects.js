@@ -7,7 +7,7 @@ var options = {
 
 projects.forEach(function(eachProject, sequence) {
   var index = sequence + 1
-  options.path = '/' + eachProject + '/_data/project.json'
+  options.path =  eachProject + '/_data/project.json'
 
   var request = http.request(options, function (res) {
     var data = ''
