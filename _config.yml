@@ -5,7 +5,7 @@ markdown: kramdown
 permalink: /:title
 youtube: https://www.youtube.com/user/sweska/videos
 github:
-  repository_url: https://github.com/hutscape/hutscape.github.io
+  repository_url: https://github.com/AvinashPudale/port/
 exclude: [
   _tutorials/*.h,
   # _tutorials/*.html, # used for html demo code page
