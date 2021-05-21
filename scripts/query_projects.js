@@ -2,7 +2,7 @@ var http = require('https');
 var projects = [ 'cactus', 'palm', 'pinee' ]
 
 var options = {
-  host: 'https://avinashpudale.github.io/port/'
+  host: 'https://avinashpudale.github.io/'
 }
 
 projects.forEach(function(eachProject, sequence) {
