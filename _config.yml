@@ -23,7 +23,7 @@ exclude: [
 collections:
   tutorials:
     output: true
-    permalink: /port/tutorials/:name
+    permalink: /tutorials/:name
   checklists:
     output: true
-    permalink: /port/checklists/:name
+    permalink: /checklists/
