@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Checklists
-permalink: /port/checklists
+permalink: /checklists
 sequence: 1
 ---
 
