@@ -20,7 +20,7 @@ sequence: 2
   </div>
 
   {% for component in site.tutorials %}
-  <a class="panel-block searchable" data-index="{{ component.title | downcase }} {% for item in component.hardware %}{{ item | downcase }} {% endfor %}" href="{{ component.url }}">
+  <a class="panel-block searchable" data-index="{{ component.title | downcase }} {% for item in component.hardware %}{{ item | downcase }} {% endfor %}" href="/port/{{ component.url }}">
     <span class="panel-icon">
       <i class="fas fa-book" aria-hidden="true"></i>
     </span>
