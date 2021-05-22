@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Checklists
-permalink: /checklists
+permalink: /checklists/:name
 sequence: 1
 ---
 
@@ -9,7 +9,7 @@ sequence: 1
 
 <nav class="panel">
   {% for checklist in site.checklists %}
-  <a class="panel-block searchable" href="{{ checklist.url |"/port/"}}">
+  <a class="panel-block searchable" href="{{ checklist.url }}">
     <span class="panel-icon">
       <i class="fas fa-book" aria-hidden="true"></i>
     </span>
