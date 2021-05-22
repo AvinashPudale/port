@@ -15,7 +15,7 @@
     <div class="navbar-start">
       {%- for pg in pages -%}
         {%- if pg.title -%}
-        <a class="navbar-item" href="{{ "/port/" | pg.url | relative_url }}">{{ pg.title | escape }}</a>
+        <a class="navbar-item" href="{{  pg.url | relative_url }}">{{ pg.title | escape }}</a>
         {%- endif -%}
       {%- endfor -%}
     </div>
