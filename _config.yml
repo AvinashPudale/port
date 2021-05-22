@@ -26,5 +26,5 @@ collections:
     permalink: /tutorials/:name
   checklists:
     output: true
-    permalink: /port/checklists/
+    permalink: /checklists/:name
     
