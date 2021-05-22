@@ -2,7 +2,7 @@
 
 <nav class="navbar is-spaced has-shadow is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item" href="{{  relative_url }}"> {{ site.title | escape }} </a>
+    <a class="navbar-item" href="{{relative_url }}"> {{ site.title | escape }} </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
       <span aria-hidden="true"></span>
@@ -15,7 +15,7 @@
     <div class="navbar-start">
       {%- for pg in pages -%}
         {%- if pg.title -%}
-        <a class="navbar-item" href="{{  "/port/" | pg.url | relative_url }}">{{ pg.title | escape }}</a>
+        <a class="navbar-item" href="{{ pg.url | relative_url }}">{{ pg.title | escape }}</a>
         {%- endif -%}
       {%- endfor -%}
     </div>
