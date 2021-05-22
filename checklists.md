@@ -9,7 +9,7 @@ sequence: 1
 
 <nav class="panel">
   {% for checklist in site.checklists %}
-  <a class="panel-block searchable" href="https://avinashpudale.github.io/port/checklists/">
+ <a class="panel-block searchable" href="{{ "/port/" | checklist.url }}">
     <span class="panel-icon">
       <i class="fas fa-book" aria-hidden="true"></i>
     </span>
